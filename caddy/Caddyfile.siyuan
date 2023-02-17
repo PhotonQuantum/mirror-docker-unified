@@ -794,7 +794,7 @@ mirror.sjtu.edu.cn {
     redir /ubuntu-cd /ubuntu-cd/ 301
     route /ubuntu-cd/* {
         uri strip_prefix /ubuntu-cd
-        redir * https://repo.huaweicloud.com/ubuntu-cdimage/{uri} 302
+        redir * https://repo.huaweicloud.com/ubuntu-releases/{uri} 302
     }
     redir /putty /putty/ 301
     route /putty/* {

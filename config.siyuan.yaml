@@ -834,6 +834,6 @@ repos:
   - type: external
     name: ubuntu-cd
     serve_mode: redir
-    target: https://repo.huaweicloud.com/ubuntu-cdimage/
+    target: https://repo.huaweicloud.com/ubuntu-releases/
     disabled: true
     <<: *oneshot_common
